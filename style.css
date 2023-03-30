@@ -10,11 +10,16 @@
     padding-right:200px ;
 }
 header {
+    margin-top: 15px;
+    margin-bottom:20px ;
     text-align: center;
-    border:2px solid black;
+  }
+  h1{
+    color: rgb(216, 113, 130);
+    margin-bottom:30px ;
   }
   main{
-    margin-top:30px ;
+    margin-top:50px ;
   }
  
   .clearfix::after {
@@ -27,6 +32,10 @@ img{
     float: left;
     vertical-align: middle;
 }
+p{
+    margin:2px ;
+}
+
 section{
     width: 29%;
     float: left;
@@ -39,8 +48,11 @@ section{
     margin-bottom:10% ;
     background-color: darkblue;
     color: white;
-    vertical-align: middle;
-
+}
+.testo{
+    
+    padding:15px ;
+    display: inline-block;
 }
 .float-left{
 float: left;
